@@ -1,54 +1,78 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: none;
+    outline: none;
     font-family: 'Merriweather', serif;
 }
 
-body {
-    background: #1f242d;
-    color: white;
-    font-size: 16px;
+html {
+    font-size: 62.5%;
 }
 
-.header {
+body {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #1f242d;
+    color: white;
+}
+
+.header, nav {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     height: 60px;
     display: flex;
     align-items: center;
-    background: #1f242d;
+    background-color: #1f242d;
+    z-index: 100;
     padding: 0 20px;
-    justify-content: space-between;
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 5rem;
     color: #ecfc03;
-    font-weight: bold;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s ease;
     text-decoration: none;
-    transition: 0.3s;
+    margin: 0;
 }
 
 .logo:hover {
+    transform: scale(1.1);
     color: #b74b4b;
 }
 
 nav ul {
     display: flex;
+    position: fixed;
     list-style: none;
-    gap: 15px;
+    right: 10px;
+    top: 20px;
+    margin: 0;
     padding: 0;
 }
 
-nav ul li a {
-    font-size: 1.2rem;
-    color: white;
-    text-decoration: none;
-    transition: 0.3s;
+nav ul li {
+    margin-right: 50px;
 }
 
-nav ul li a:hover {
+nav ul li a {
+    font-size: 2.2rem;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
     color: #ecfc03;
+    border-bottom: 3px solid #ecfc03;
 }
