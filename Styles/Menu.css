@@ -118,4 +118,17 @@ nav ul li a:active {
     }
 }
 
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    nav ul {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
+}
+
+
 
