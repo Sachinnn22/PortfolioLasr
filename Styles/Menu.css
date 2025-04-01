@@ -76,3 +76,22 @@ nav ul li a:active {
     color: #ecfc03;
     border-bottom: 3px solid #ecfc03;
 }
+
+.menu-btn {
+    display: none;
+    width: 40px;
+    cursor: pointer;
+}
+
+@media (max-width: 320px) {
+    .logo {
+        display: none;
+    }
+    nav ul {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
+}
+
