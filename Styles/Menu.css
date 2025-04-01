@@ -95,3 +95,16 @@ nav ul li a:active {
     }
 }
 
+@media (max-width: 375px) {
+    .logo {
+        display: none;
+    }
+    nav ul {
+        display: none;
+    }
+    .menu-btn {
+        width: 50px;
+        display: block;
+    }
+}
+
