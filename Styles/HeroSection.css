@@ -1,0 +1,103 @@
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    background-color: #1f242d;
+}
+span{
+    color: #ecfc03;
+}
+
+.home-content h1{
+    font-size: 4rem;
+    margin-bottom: 8px;
+    font-weight: 900;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    /*margin-bottom: 14rem;*/
+    font-weight: 700;
+}
+
+.home-content p {
+    font-family:"Merriweather", serif;
+    font-size: 2rem;
+    margin-top: 16px;
+
+}
+
+.homeImg{
+    border-radius: 50%;
+}
+
+.homeImg img{
+    position: relative;
+    width:32vw ;
+    border-radius: 50%;
+    box-shadow: 0 0 25px #ecfc03 ;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.homeImg img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.social-icons a{
+    text-decoration: none;
+    display: inline-flex;
+    font-size: 30px;
+    position: relative;
+    /*margin-top: 14px;*/
+    top: 15px;
+    left: -10px;
+    right: 28px;
+    padding: 10px;
+    border: 2px solid #ecfc03 ;
+    border-radius: 50%;
+    color: #ecfc03;
+    margin: 0 8px;
+    transition: .5s;
+}
+
+.social-icons a:hover{
+    background-color: #ecfc03;
+    transition-duration: 1000ms;
+    color:  #1f242d;
+    box-shadow: 0 0 10px #ecfc03;
+}
+
+.cv{
+    margin-top: 33px;
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #1f242d;
+    border-radius: 9rem;
+    margin-left:-3px ;
+    font-size: 1.6rem;
+    color: #ecfc03;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    border: 4px solid #ecfc03;
+    transition: 0.3s ease;
+    font-family: "Book Antiqua";
+    cursor: pointer;
+    text-decoration: #ecfc03;
+
+}
+
+.cv:hover{
+    transform: scale(1.03);
+    background-color: #ecfc03;
+    color: #1f242d;
+    box-shadow: 0 0 25px #ecfc03;
+}
