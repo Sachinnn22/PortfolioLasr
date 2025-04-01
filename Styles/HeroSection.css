@@ -103,6 +103,7 @@ span{
 
 @media screen and (max-width: 320px) {
     section {
+        margin-left: 25px;
         padding: 3rem 5%;
     }
 
@@ -112,34 +113,38 @@ span{
     }
 
     .home-content h1 {
-        font-size: 2.5rem;
+        margin-left: 40px;
+        font-size: 2.6rem;
         margin-bottom: 4px;
     }
 
     .home-content h3 {
-        font-size: 2.2rem;
+        margin-left: 10px;
+        font-size: 2.3rem;
     }
 
     .home-content p {
-        font-size: 1.6rem;
+        text-align: center;
+        font-size: 1.4rem;
         margin-top: 12px;
     }
 
     .homeImg img {
         margin-top: 40px;
-        width: 50vw;
+        width: 65vw;
         box-shadow: 0 0 15px #ecfc03;
     }
 
     .social-icons a {
         font-size: 24px;
-        top: 5px;
+        top: 15px;
         left: 0;
         right: 0;
         padding: 8px;
     }
 
     .cv {
+        margin-left: 50px;
         font-size: 1.4rem;
         padding: 0.8rem 1.8rem;
     }
