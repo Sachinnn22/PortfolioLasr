@@ -79,7 +79,6 @@ nav ul li a:active {
 
 .menu-btn {
     display: none;
-    width: 40px;
     cursor: pointer;
 }
 
@@ -103,8 +102,20 @@ nav ul li a:active {
         display: none;
     }
     .menu-btn {
-        width: 50px;
         display: block;
     }
 }
+
+@media (max-width: 425px) {
+    .logo {
+        display: none;
+    }
+    nav ul {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
+    }
+}
+
 
