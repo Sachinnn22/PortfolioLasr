@@ -226,6 +226,7 @@ span{
 
 @media screen and (max-width: 768px) {
     .home {
+        margin-top: 20px;
         flex-direction: column;
         gap: 5rem;
         text-align: center;
