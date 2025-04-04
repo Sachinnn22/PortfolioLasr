@@ -96,3 +96,25 @@
     z-index: 2;
 }
 
+@media screen and (max-width: 320px) {
+    .contain {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 1rem 10px;
+    }
+
+    .inner{
+        margin-left: 63px;
+    }
+    .img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .head{
+        font-size: 40px;
+    }
+
+    .skill-title {
+        font-size: 10px;
+    }
+}
