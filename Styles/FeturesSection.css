@@ -1,0 +1,133 @@
+
+
+.page4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1f242d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page4 > h1 {
+    align-self: center;
+    color: #ecfc03;
+    font-size: 38px;
+    margin: -40px
+}
+
+.page4 > p{
+    align-self: center;
+    color: white;
+    font-size: 20px;
+    margin: 42px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.row > div {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.row >div:hover{
+    transform: scale(1.1);
+    transition-duration: 2000ms;
+    background-color: #adaaaa;
+    color: black;
+    cursor: pointer;
+}
+
+
+.row > div > img{
+    height: 50px;
+    width: 50px;
+}
+
+.row > div > h2 {
+    color: #ecfc03;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.row > div > p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Base styles */
+.page4 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1f242d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page4 > h1 {
+    align-self: center;
+    color: #ecfc03;
+    font-size: 38px;
+    margin: -40px;
+}
+
+.page4 > p {
+    align-self: center;
+    color: white;
+    font-size: 20px;
+    margin: 42px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.row > div {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.row > div:hover {
+    transform: scale(1.1);
+    transition-duration: 2000ms;
+    background-color: #adaaaa;
+    color: black;
+    cursor: pointer;
+}
+
+.row > div > img {
+    height: 50px;
+    width: 50px;
+}
+
+.row > div > h2 {
+    color: #ecfc03;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.row > div > p {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
